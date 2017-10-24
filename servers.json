@@ -1,0 +1,102 @@
+[
+  {
+    "name": "restapi01",
+    "origin": "https://eng-hub-docker-restapi01.dc1.lan",
+    "type": "restapi"
+  },
+  {
+    "name": "restapi02",
+    "origin": "https://eng-hub-docker-restapi02.dc1.lan",
+    "type": "restapi"
+  },
+  {
+    "name": "restapi03",
+    "origin": "https://eng-hub-docker-restapi03.dc1.lan",
+    "type": "restapi"
+  },
+  {
+    "name": "restapi04",
+    "origin": "https://eng-hub-docker-restapi04.dc1.lan",
+    "type": "restapi"
+  },
+  {
+    "name": "wd01",
+    "origin": "https://eng-hub-docker-wd01.dc1.lan",
+    "type": "webdriver"
+  },
+  {
+    "name": "wd02",
+    "origin": "https://eng-hub-docker-wd02.dc1.lan",
+    "type": "webdriver"
+  },
+  {
+    "name": "wd03",
+    "origin": "https://eng-hub-docker-wd03.dc1.lan",
+    "type": "webdriver"
+  },
+  {
+    "name": "wd04",
+    "origin": "https://eng-hub-docker-wd04.dc1.lan",
+    "type": "webdriver"
+  },
+  {
+    "name": "valid01",
+    "origin": "https://eng-hub-docker-valid01.dc1.lan",
+    "type": "development"
+  },
+  {
+    "name": "valid02",
+    "origin": "https://eng-hub-docker-valid02.dc1.lan",
+    "type": "development"
+  },
+  {
+    "name": "valid03",
+    "origin": "https://eng-hub-docker-valid03.dc1.lan",
+    "type": "development"
+  },
+  {
+    "name": "valid04",
+    "origin": "https://eng-hub-docker-valid04.dc1.lan",
+    "type": "development"
+  },
+  {
+    "name": "perf01",
+    "origin": "https://eng-hub-docker-perf01.dc1.lan",
+    "type": "performance"
+  },
+  {
+    "name": "perf02",
+    "origin": "https://eng-hub-docker-perf02.dc1.lan",
+    "type": "performance"
+  },
+  {
+    "name": "perf03",
+    "origin": "https://eng-hub-docker-perf03.dc1.lan",
+    "type": "performance"
+  },
+  {
+    "name": "perf04",
+    "origin": "https://eng-hub-docker-perf04.dc1.lan",
+    "type": "performance"
+  },
+  {
+    "name": "fitnesse01",
+    "origin": "https://eng-hub-docker-fitnesse01.dc1.lan",
+    "type": "fitnesse"
+  },
+  {
+    "name": "fitnesse02",
+    "origin": "https://eng-hub-docker-fitnesse02.dc1.lan",
+    "type": "fitnesse"
+  },
+  {
+    "name": "fitnesse03",
+    "origin": "https://eng-hub-docker-fitnesse03.dc1.lan",
+    "type": "fitnesse"
+  },
+  {
+    "name": "fitnesse04",
+    "origin": "https://eng-hub-docker-fitnesse04.dc1.lan",
+    "type": "fitnesse"
+  }
+]
