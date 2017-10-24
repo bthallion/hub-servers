@@ -72,7 +72,7 @@ const getServerVersion = async (server) => {
             headers: {
                 cookie: cookie.serialize('JSESSIONID', sessionId)
             },
-            timeout: 3000
+            timeout: 2000
         });
     } catch (err) {
         return {};
