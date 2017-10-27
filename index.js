@@ -44,7 +44,8 @@ const authenticate = async (server) => {
         authResponse = await got.post(authUrl, {
             form: true,
             body: credentials,
-            rejectUnauthorized: false
+            rejectUnauthorized: false,
+            timeout: 1000,
         });
     } catch (err) {
         return server;
@@ -72,7 +73,7 @@ const getServerVersion = async (server) => {
             headers: {
                 cookie: cookie.serialize('JSESSIONID', sessionId)
             },
-            timeout: 2000
+            timeout: 1000
         });
     } catch (err) {
         return {};
